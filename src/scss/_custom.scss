@@ -1,5 +1,18 @@
 // Here you can add other styles
 
+.sidebar{
+  background:$cui-sidebar-bg ;
+}
+.sidebar-nav .nav-link:hover, .sidebar-nav .nav-link.active {
+  color: $cui-sidebar-nav-link-hover-color;
+  background: $cui-sidebar-nav-link-hover-bg;
+}
+// .custom-sidebar-nav-link:hover{
+//   color: #ffffff; // Couleur du texte au survol
+//   background-color: #2980b9; // Couleur de fond au survol
+// }
+
+
 // custom .chartjs-tooltip-body-item padding
 @import "charts";
 
