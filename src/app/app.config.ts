@@ -1,5 +1,6 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideAnimations } from '@angular/platform-browser/animations';
+
 import {
   provideRouter,
   withEnabledBlockingInitialNavigation,

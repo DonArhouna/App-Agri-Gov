@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { DefaultLayoutComponent } from './layout';
+import { GestionSubventionsComponent } from './gestion-subventions/gestion-subventions.component';
 
 export const routes: Routes = [
   {
@@ -21,6 +22,10 @@ export const routes: Routes = [
       {
         path: 'theme',
         loadChildren: () => import('./views/theme/routes').then((m) => m.routes)
+      },
+      {
+        path: 'gestion-subventions',
+        component: GestionSubventionsComponent
       },
       {
         path: 'base',
