@@ -1,0 +1,23 @@
+<div class="card">
+    <div class="card-header">
+      <h3>Formulaire d'ajout de partenair'</h3>
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="type">Type</label>
+          <input type="text" class="form-control" id="type" [(ngModel)]="ajout.type" name="type" required>
+        </div>
+        <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" class="form-control" id="nom" [(ngModel)]="ajout.nom" name="nom" required>
+          </div>
+        <div class="form-group">
+          <label for="adresse">Adresse</label>
+          <input type="text" class="form-control" id="adresse" [(ngModel)]="ajout.adresse" name="adresse" required>
+        </div>
+        <button type="submit" class="btn btn-warning">Ajouter</button>
+      </form>
+    </div>
+  </div>
+  

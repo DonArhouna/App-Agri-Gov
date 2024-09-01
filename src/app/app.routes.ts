@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { DefaultLayoutComponent } from './layout';
 import { GestionSubventionsComponent } from './gestion-subventions/gestion-subventions.component';
+import { GestionPartenairComponent } from './gestion-partenair/gestion-partenair.component';
 
 export const routes: Routes = [
   {
@@ -26,6 +27,10 @@ export const routes: Routes = [
       {
         path: 'gestion-subventions',
         component: GestionSubventionsComponent
+      },
+      {
+        path: 'gestion-partenair',
+        component: GestionPartenairComponent
       },
       {
         path: 'base',
@@ -89,5 +94,6 @@ export const routes: Routes = [
       title: 'Register Page'
     }
   },
+  
   { path: '**', redirectTo: 'dashboard' }
 ];

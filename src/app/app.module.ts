@@ -1,3 +1,4 @@
+import { GestionPartenairComponent } from './gestion-partenair/gestion-partenair.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; // Importer FormsModule
@@ -11,7 +12,8 @@ import { GestionSubventionsModule  } from './gestion-subventions/gestion-subvent
   imports: [
     BrowserModule,
     FormsModule,
-    GestionSubventionsModule 
+    GestionSubventionsModule,
+    GestionPartenairComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
